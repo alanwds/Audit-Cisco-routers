@@ -29,7 +29,11 @@ Running the Application
 
 2 - Install depends:
 
+#Net::Telnet -> http://search.cpan.org/~jrogers/Net-Telnet-3.03/lib/Net/Telnet.pm
+#Net::Telnet::Cisco -> http://search.cpan.org/~joshua/Net-Telnet-Cisco-1.10/Cisco.pm
+#Try:tiny -> http://search.cpan.org/~doy/Try-Tiny-0.11/lib/Try/Tiny.pm
+#Net::Syslog-> http://search.cpan.org/~lhoward/Net-Syslog-0.04/Syslog.pm
 
-3 - Edit the file (attackReport_en.py ) according your Peakflow Appliance
+3 - Set your own security params to check
 
-4 - ./attackReport_en.py
+4 - ./auditCiscoRouters.pl
